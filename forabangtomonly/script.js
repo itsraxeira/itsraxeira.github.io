@@ -71,7 +71,7 @@ $("#todos").on("click", "label", function () {
 	}
 });
 
-gsap.registerPlugin(EasePack);
+// gsap.registerPlugin(EasePack);
 
 const tl = gsap.timeline();
 var master = new TimelineMax();
