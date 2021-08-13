@@ -29,6 +29,13 @@ function growPlant() {
 	}
 }
 
+function growPlantStaged(stage) {
+	if (stage < 11) {
+		playTimeline(stage);
+		$("aside p").text(changeMotivation(stage));
+	}
+}
+
 function changeMotivation(number) {
 	switch (number) {
 		case 1:
@@ -64,11 +71,17 @@ function changeMotivation(number) {
 	}
 }
 
+var checked = 0;
+
 $("#todos").on("click", "label", function () {
 	$(this).closest("li").toggleClass("done");
 	if ($(this).closest("li").hasClass("done")) {
-		growPlant();
+		checked++;
+		// growPlant();
+	} else {
+		checked--;
 	}
+	growPlantStaged(checked + 1);
 });
 
 // gsap.registerPlugin(EasePack);
