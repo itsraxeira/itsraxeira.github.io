@@ -68,7 +68,7 @@ main h1 {
 @media (min-width: 768px) {
   main #to-do-app .todos {
     min-height: 58vh;
-    max-height: 58vh;
+    /* max-height: 58vh; */
     overflow: auto;
   }
 }
