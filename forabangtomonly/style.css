@@ -76,12 +76,12 @@ main #to-do-app ::-webkit-scrollbar {
   width: 20px;
 }
 main #to-do-app ::-webkit-scrollbar-track {
-  background: whitesmoke;
+  background: lightyellow;
   border-radius: 30px;
 }
 main #to-do-app ::-webkit-scrollbar-thumb {
   background: #f2a899;
-  border: solid 7px whitesmoke;
+  border: solid 7px lightyellow;
   border-radius: 30px;
 }
 main #to-do-app ::-webkit-scrollbar-thumb:hover {
