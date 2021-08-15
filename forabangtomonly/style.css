@@ -21,7 +21,7 @@ body {
   display: grid;
   place-items: center;
   /* background: lavenderblush; */
-  background: whitesmoke;
+  background: lightyellow;
   font-size: 1.1vw;
   font-family: "Caladea", serif;
 }
@@ -143,6 +143,7 @@ li {
   transition: 0.2s;
   position: relative;
   user-select: none;
+  -webkit-tap-highlight-color: transparent;
 }
 li input {
   display: none;
