@@ -66,7 +66,7 @@ function changeMotivation(number) {
 			return "One more for good measure.";
 			break;
 		case 10:
-			return "Well done! Thank you for your hard work, Abang! Thank you for being here with me until this day. You don't know how much I feel so grateful, feeling so bleesed to have you here side by side. Love you, Abaaaang <3";
+			return "Ta-da! Thank you for your hard work <3";
 			break;
 	}
 }
